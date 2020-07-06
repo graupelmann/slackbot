@@ -1,0 +1,22 @@
+{
+  "name": "slackbot",
+  "version": "0.0.1",
+  "description": "Slackbot for machine learning course",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "slack",
+    "slack-bot",
+    "bot",
+    "ml",
+    "machine-learning"
+  ],
+  "author": "Felix Arnold",
+  "license": "ISC",
+  "dependencies": {
+    "@slack/events-api": "^2.3.3",
+    "@slack/web-api": "^5.10.0"
+  }
+}
