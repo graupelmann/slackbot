@@ -31,7 +31,7 @@ app.event('app_mention', ({ event, say }) => {
       say({
         "attachments": [
           {
-            // "text": "Optional text that appears within the attachment",
+            "text": "Download the image if you want to keep it!",
             "image_url": resp.output_url,
           }
         ]
